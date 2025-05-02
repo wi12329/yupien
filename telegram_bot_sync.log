@@ -1,0 +1,364 @@
+2025-05-02 00:20:35,869 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 00:20:35,869 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 00:20:35,870 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 00:21:58,755 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 00:21:58,755 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 00:21:58,756 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 00:26:05,753 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:26:05,753 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 00:26:09,463 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:26:09,463 - __main__ - INFO - Received /start command from user 7084347052
+2025-05-02 00:26:21,956 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:26:21,956 - __main__ - INFO - Received /tweet command from user 7084347052
+2025-05-02 00:26:22,571 - __main__ - INFO - Command written: tweet
+2025-05-02 00:35:06,404 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 00:35:06,404 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 00:35:06,404 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 00:35:38,280 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:35:38,280 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 00:35:43,821 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:35:43,822 - __main__ - INFO - Received /tweet command from user 7084347052
+2025-05-02 00:35:45,869 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:35:45,869 - __main__ - INFO - Received /start command from user 7084347052
+2025-05-02 00:35:50,480 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:35:50,480 - __main__ - INFO - Received /tweet command from user 7084347052
+2025-05-02 00:35:51,100 - __main__ - INFO - Command written: tweet
+2025-05-02 00:37:18,828 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:37:18,829 - __main__ - INFO - Received /tweet command from user 7084347052
+2025-05-02 00:37:28,419 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:37:28,419 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 00:39:18,730 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:39:18,730 - __main__ - INFO - Received /tweet command from user 7084347052
+2025-05-02 00:39:21,254 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:39:21,255 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 00:43:21,783 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 00:43:21,783 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 00:43:21,783 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 00:44:06,826 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:44:21,982 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:44:21,982 - __main__ - INFO - Received /x command from user 7084347052
+2025-05-02 00:44:22,601 - __main__ - INFO - Command written: tweet
+2025-05-02 00:44:56,110 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:45:15,196 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:45:15,196 - __main__ - INFO - Received /image command from user 7084347052
+2025-05-02 00:45:15,818 - __main__ - INFO - Command written: image
+2025-05-02 00:46:40,029 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:46:49,914 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:47:02,329 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:47:02,329 - __main__ - INFO - Received /image command from user 7084347052
+2025-05-02 00:47:02,946 - __main__ - INFO - Command written: image
+2025-05-02 00:47:26,799 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:47:36,004 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:47:36,005 - __main__ - INFO - Received /image command from user 7084347052
+2025-05-02 00:47:46,434 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:47:46,434 - __main__ - INFO - Received /image command from user 7084347052
+2025-05-02 00:47:47,104 - __main__ - INFO - Command written: image
+2025-05-02 00:48:36,675 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:48:36,676 - __main__ - INFO - Received /start command from user 7084347052
+2025-05-02 00:48:47,169 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 00:48:47,169 - __main__ - INFO - Received /help command from user 7084347052
+2025-05-02 07:34:52,271 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 07:34:52,271 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 07:34:52,272 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 07:34:52,707 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 07:34:52,707 - __main__ - INFO - Received /start command from user 2066787900
+2025-05-02 07:34:53,417 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 07:34:53,417 - __main__ - INFO - Received /start command from user 1364621923
+2025-05-02 07:34:54,047 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 07:34:54,047 - __main__ - INFO - Received /start command from user 966996069
+2025-05-02 07:34:54,687 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 07:34:54,688 - __main__ - INFO - Received /start command from user 1202256284
+2025-05-02 07:34:55,332 - __main__ - ERROR - Failed to send message: {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2025-05-02 07:34:55,333 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 07:34:55,333 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 07:34:55,333 - __main__ - INFO - Received /start command from user 6680568532
+2025-05-02 07:34:55,969 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 07:34:55,969 - __main__ - INFO - Received /start command from user 7932100517
+2025-05-02 07:35:43,959 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 07:35:43,959 - __main__ - INFO - Received /x command from user 7084347052
+2025-05-02 07:35:44,577 - __main__ - INFO - Command written: tweet
+2025-05-02 10:47:42,664 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 10:47:42,664 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 10:47:42,665 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 10:47:43,101 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 10:47:43,102 - __main__ - INFO - Received /start command from user 6900932140
+2025-05-02 10:47:43,773 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 10:47:43,774 - __main__ - INFO - Received /start command from user 1358739871
+2025-05-02 10:47:44,405 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 10:47:44,405 - __main__ - INFO - Received /start command from user 1358739871
+2025-05-02 10:47:45,078 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 10:47:45,078 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 10:47:45,739 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 10:47:45,740 - __main__ - INFO - Received /start command from user 7084347052
+2025-05-02 10:50:23,342 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 10:50:23,342 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 10:50:23,343 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 10:51:05,814 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 10:51:05,814 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 10:51:12,270 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 10:51:12,270 - __main__ - INFO - Received /start command from user 7084347052
+2025-05-02 10:54:49,676 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 10:54:49,676 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 10:54:49,677 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 10:58:38,176 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 10:58:38,176 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 10:58:38,177 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 10:59:20,581 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 10:59:20,581 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 10:59:22,639 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 10:59:22,639 - __main__ - INFO - Received /help command from user 7084347052
+2025-05-02 11:00:27,779 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 11:00:27,779 - __main__ - INFO - Received -yupi command from user 7084347052
+2025-05-02 11:00:28,396 - __main__ - INFO - Command written: tweet
+2025-05-02 11:04:56,368 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 11:04:56,368 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 11:04:56,369 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 11:05:17,783 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 11:05:17,783 - __main__ - INFO - Received -yupi command from user 7084347052
+2025-05-02 11:05:18,399 - __main__ - INFO - Command written: tweet
+2025-05-02 11:07:37,053 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 11:07:37,053 - __main__ - INFO - Received /start command from user 1230379091
+2025-05-02 11:08:36,326 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 11:08:36,327 - __main__ - INFO - Received -upnsby command from user 1230379091
+2025-05-02 11:08:36,941 - __main__ - INFO - Command written: tweet
+2025-05-02 11:26:51,187 - __main__ - INFO - Bot stopped by keyboard interrupt
+2025-05-02 11:28:12,830 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 11:28:12,830 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 11:28:12,831 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 11:30:58,707 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 11:30:58,707 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 11:30:58,708 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 11:33:29,066 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 11:33:29,066 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 11:33:29,066 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 11:34:53,844 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 11:34:53,844 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 11:34:53,845 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 11:36:44,061 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 11:36:44,062 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 11:36:44,062 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 11:37:09,104 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 11:37:09,107 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 11:37:09,107 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 11:37:37,714 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 11:37:37,714 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 11:37:37,715 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 11:38:49,363 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 11:38:49,363 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 11:38:49,363 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:07:53,448 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:07:53,449 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:07:53,449 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:07:53,899 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:07:53,899 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:08:22,821 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:08:22,821 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:08:24,878 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:08:24,878 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:08:26,956 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:08:26,956 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:08:29,561 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:08:29,564 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:08:32,645 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:08:32,645 - __main__ - INFO - Received /start command from user 7084347052
+2025-05-02 12:09:28,575 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:09:28,576 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:09:28,577 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:09:29,021 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:09:29,021 - __main__ - INFO - Received /help command from user 7084347052
+2025-05-02 12:09:29,678 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:09:29,679 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:10:50,786 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:10:50,786 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:12:16,965 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:12:16,966 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:12:16,966 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:12:23,109 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:12:23,109 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:12:23,109 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:13:55,916 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:13:55,918 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:13:55,919 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:14:14,871 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:14:14,871 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:14:14,871 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:18:22,846 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:18:22,851 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:18:26,096 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:18:26,096 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:24:00,001 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:24:00,001 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:24:00,002 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:24:14,174 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:24:14,175 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:24:14,175 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:24:24,188 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:24:24,188 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:24:24,188 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:24:28,959 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:24:28,959 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:24:37,252 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:24:37,258 - __main__ - INFO - Received /start command from user 7084347052
+2025-05-02 12:48:20,331 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:48:20,331 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:48:20,332 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:48:20,773 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:48:20,773 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:48:21,389 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:48:21,389 - __main__ - INFO - Received /help command from user 7084347052
+2025-05-02 12:48:22,006 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:48:22,007 - __main__ - INFO - Received /start command from user 7084347052
+2025-05-02 12:48:22,633 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:48:22,633 - __main__ - INFO - Received /help command from user 7084347052
+2025-05-02 12:48:23,251 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:48:23,251 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:48:23,875 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:48:23,875 - __main__ - INFO - Received /start command from user 1162074914
+2025-05-02 12:48:24,583 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 12:48:24,583 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 12:49:57,774 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:49:57,780 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:49:57,780 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 12:51:38,776 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 12:51:38,776 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 12:51:38,777 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 13:00:08,228 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 13:00:08,229 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 13:00:08,229 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 13:00:08,675 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 13:00:08,675 - __main__ - INFO - Received /help command from user 7084347052
+2025-05-02 13:03:32,222 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 13:03:32,223 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 13:03:32,223 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 13:22:16,095 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 13:22:16,096 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 13:22:16,096 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 13:22:16,537 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 13:22:16,538 - __main__ - INFO - Received /start command from user 7027648793
+2025-05-02 14:06:35,819 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 14:06:35,819 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 14:06:35,820 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 14:08:06,195 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:08:06,195 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:13:14,908 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 14:13:14,908 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 14:13:14,909 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 14:28:13,398 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:28:13,403 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:29:56,031 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:29:56,031 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:31:44,237 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 14:31:44,237 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 14:31:44,238 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 14:36:56,941 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:36:56,977 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:36:59,078 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:36:59,079 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:41:57,318 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 14:41:57,319 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 14:41:57,319 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 14:41:57,778 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:41:57,778 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:41:58,441 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:41:58,442 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:41:59,112 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:41:59,112 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:01,197 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:01,197 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:01,882 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:01,883 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:04,735 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:04,735 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:07,081 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:07,081 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:22,251 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:22,252 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:24,312 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:24,313 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:26,365 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:26,365 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:28,424 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:28,424 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:57,307 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 14:42:57,308 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 14:42:57,309 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 14:42:57,756 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:57,757 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:58,492 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:58,492 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:42:59,142 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:42:59,142 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 14:45:26,963 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 14:45:26,963 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 15:02:20,152 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 15:02:20,153 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 15:02:20,154 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 15:04:26,340 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 15:04:26,341 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 15:05:49,036 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 15:05:49,038 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 15:05:49,038 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 15:05:49,475 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 15:05:49,476 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 15:05:50,095 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 15:05:50,095 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 15:07:10,823 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 15:07:10,824 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 15:07:10,824 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 15:12:18,475 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 15:12:18,475 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 15:26:16,342 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 15:26:16,342 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 16:04:35,074 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 16:04:35,075 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 16:04:35,076 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 16:04:35,515 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 16:04:35,515 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 16:04:36,141 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 16:04:36,141 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 16:04:36,759 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 16:04:36,759 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 16:04:37,382 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 16:04:37,382 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 16:19:20,443 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 16:19:20,444 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 16:19:20,444 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 16:19:20,891 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 16:19:20,893 - __main__ - INFO - Received /start command from user 1108114315
+2025-05-02 16:20:25,868 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 16:20:25,869 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 16:49:22,609 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 16:49:22,611 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 16:49:22,611 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 17:42:20,323 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 17:42:20,324 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 17:42:20,324 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 17:42:20,772 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 17:42:20,773 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 17:42:21,401 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 17:42:21,401 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 17:49:52,377 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 17:49:52,377 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 17:49:52,378 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 17:50:21,997 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 17:50:21,997 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 17:50:21,998 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 17:50:51,198 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 17:50:51,198 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 17:50:51,198 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 17:51:22,173 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 17:51:22,173 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 17:51:22,174 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 17:53:05,370 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 17:53:05,370 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 17:53:12,000 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 17:53:12,000 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 17:57:59,777 - __main__ - INFO - Status updated: Starting Telegram bot... 
+2025-05-02 17:57:59,778 - __main__ - INFO - Starting Telegram bot polling...
+2025-05-02 17:57:59,778 - __main__ - INFO - Status updated: Telegram bot polling for updates 
+2025-05-02 17:58:00,220 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 17:58:00,220 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 17:58:00,833 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 17:58:00,833 - __main__ - INFO - Received /status command from user 7084347052
+2025-05-02 18:02:41,914 - __main__ - INFO - 👥 All users are authorized to use this bot (public mode)
+2025-05-02 18:02:41,914 - __main__ - INFO - Received /start command from user 817136598

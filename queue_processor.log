@@ -1,0 +1,21 @@
+2025-05-02 17:51:08,435 - INFO - No pending tweets found, let's add a test tweet
+2025-05-02 17:51:08,710 - INFO - Added test tweet to queue with ID 1
+2025-05-02 17:51:08,714 - INFO - Processing the queue...
+2025-05-02 17:51:08,715 - INFO - Starting queue processing
+2025-05-02 17:51:08,721 - INFO - Twitter API client initialized
+2025-05-02 17:51:09,848 - INFO - Found 1 pending tweets
+2025-05-02 17:51:09,922 - INFO - Found 0 stalled tweets
+2025-05-02 17:51:09,923 - INFO - Processing tweet ID 1 from user 12345
+2025-05-02 17:51:10,197 - INFO - Posting text tweet: This is a test tweet...
+2025-05-02 17:51:10,284 - ERROR - Error checking rate limits: '/statuses/update'
+2025-05-02 17:51:10,354 - ERROR - Error posting tweet: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2025-05-02 17:51:10,358 - ERROR - Failed to post tweet: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2025-05-02 17:51:12,498 - INFO - Queue processing completed
+2025-05-02 17:51:12,499 - INFO - Queue processing completed
+2025-05-02 17:51:12,784 - INFO - Queue status:
+2025-05-02 17:51:12,787 - INFO - - Pending: 1
+2025-05-02 17:51:12,787 - INFO - - Posting: 0
+2025-05-02 17:51:12,787 - INFO - - Posted: 0
+2025-05-02 17:51:12,788 - INFO - - Failed: 0

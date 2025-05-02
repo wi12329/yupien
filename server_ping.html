@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Telegram-X Bot Self-Ping</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #121212;
+            color: #eee;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2196F3;
+        }
+        .status {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 4px;
+            background-color: #263238;
+        }
+        .log {
+            height: 200px;
+            overflow-y: auto;
+            background-color: #1a1a1a;
+            color: #B0BEC5;
+            padding: 10px;
+            font-family: monospace;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .status-box {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 4px;
+            margin: 4px;
+            font-weight: bold;
+        }
+        .online {
+            background-color: #388E3C;
+            color: white;
+        }
+        .offline {
+            background-color: #D32F2F;
+            color: white;
+        }
+        .controls {
+            margin: 20px 0;
+        }
+        button {
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        button:hover {
+            background-color: #1976D2;
+        }
+        .stats {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #212121;
+            border-radius: 4px;
+        }
+        
+        .success-entry {
+            color: #4CAF50;
+        }
+        .error-entry {
+            color: #F44336;
+        }
+        .info-entry {
+            color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Telegram-X Bot Self-Ping</h1>
+        <p>This page will help keep your bot running 24/7 by pinging it regularly. <strong>Just keep this page open in your browser.</strong></p>
+        
+        <div class="status">
+            <h2>Bot Status</h2>
+            <div>
+                <span class="status-box" id="bot-status">Checking...</span>
+                <span class="status-box" id="ping-status">Ping: Initializing...</span>
+            </div>
+            <div>
+                <p>Next ping in: <span id="countdown">60</span> seconds</p>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="ping-button">Ping Now</button>
+            <button id="toggle-ping">Pause Auto-Ping</button>
+            <button id="clear-log">Clear Log</button>
+        </div>
+        
+        <h2>Ping Log</h2>
+        <div class="log" id="log-container"></div>
+        
+        <div class="stats">
+            <h2>Statistics</h2>
+            <p>Total pings: <span id="total-pings">0</span></p>
+            <p>Successful pings: <span id="success-pings">0</span></p>
+            <p>Failed pings: <span id="failed-pings">0</span></p>
+            <p>Uptime: <span id="uptime">0%</span></p>
+        </div>
+        
+        <p style="margin-top: 30px; font-size: 0.8em; color: #777;">
+            <strong>Instructions:</strong> Keep this tab open in your browser to keep pinging your bot. 
+            Your browser must remain open for this to work.
+        </p>
+    </div>
+    
+    <script>
+        // Configuration
+        const config = {
+            pingInterval: 60, // seconds
+            endpoints: [
+                { url: '/health', name: 'Health Check' },
+                { url: '/ping', name: 'Ping Endpoint' },
+                { url: '/ping.txt', name: 'Plain Text Ping' }
+            ],
+            autoPing: true
+        };
+        
+        // Statistics
+        const stats = {
+            totalPings: 0,
+            successPings: 0,
+            failedPings: 0,
+            startTime: Date.now()
+        };
+        
+        // DOM elements
+        const elements = {
+            logContainer: document.getElementById('log-container'),
+            botStatus: document.getElementById('bot-status'),
+            pingStatus: document.getElementById('ping-status'),
+            countdown: document.getElementById('countdown'),
+            pingButton: document.getElementById('ping-button'),
+            togglePing: document.getElementById('toggle-ping'),
+            clearLog: document.getElementById('clear-log'),
+            totalPings: document.getElementById('total-pings'),
+            successPings: document.getElementById('success-pings'),
+            failedPings: document.getElementById('failed-pings'),
+            uptime: document.getElementById('uptime')
+        };
+        
+        // Timer and counter
+        let pingTimer;
+        let secondsRemaining = config.pingInterval;
+        
+        // Log message to the log container
+        function log(message, type = 'info') {
+            const entry = document.createElement('div');
+            entry.classList.add(`${type}-entry`);
+            
+            const timestamp = new Date().toLocaleTimeString();
+            entry.textContent = `[${timestamp}] ${message}`;
+            
+            elements.logContainer.appendChild(entry);
+            elements.logContainer.scrollTop = elements.logContainer.scrollHeight;
+            
+            // Limit log entries to 100
+            if (elements.logContainer.children.length > 100) {
+                elements.logContainer.removeChild(elements.logContainer.firstChild);
+            }
+        }
+        
+        // Update the statistics display
+        function updateStats() {
+            elements.totalPings.textContent = stats.totalPings;
+            elements.successPings.textContent = stats.successPings;
+            elements.failedPings.textContent = stats.failedPings;
+            
+            const successRate = stats.totalPings > 0 
+                ? Math.round((stats.successPings / stats.totalPings) * 100) 
+                : 0;
+            elements.uptime.textContent = `${successRate}%`;
+            
+            // Update bot status display
+            if (stats.totalPings === 0) {
+                elements.botStatus.textContent = 'Not checked yet';
+                elements.botStatus.className = 'status-box';
+            } else if (stats.successPings > 0 && stats.failedPings < 3) {
+                elements.botStatus.textContent = 'ONLINE';
+                elements.botStatus.className = 'status-box online';
+            } else {
+                elements.botStatus.textContent = 'OFFLINE';
+                elements.botStatus.className = 'status-box offline';
+            }
+        }
+        
+        // Try pinging each endpoint until one succeeds
+        async function pingEndpoints() {
+            elements.pingStatus.textContent = 'Pinging...';
+            log('Starting ping attempt...');
+            
+            stats.totalPings++;
+            let success = false;
+            
+            for (const endpoint of config.endpoints) {
+                try {
+                    log(`Trying endpoint: ${endpoint.name} (${endpoint.url})`);
+                    
+                    const startTime = Date.now();
+                    const response = await fetch(endpoint.url);
+                    const responseTime = Date.now() - startTime;
+                    
+                    if (response.ok) {
+                        success = true;
+                        log(`✅ Success! ${endpoint.name} responded with status ${response.status} in ${responseTime}ms`, 'success');
+                        elements.pingStatus.textContent = `Ping: ${responseTime}ms`;
+                        break;
+                    } else {
+                        log(`❌ Error: ${endpoint.name} responded with status ${response.status}`, 'error');
+                    }
+                } catch (error) {
+                    log(`❌ Error pinging ${endpoint.name}: ${error.message}`, 'error');
+                }
+            }
+            
+            if (success) {
+                stats.successPings++;
+                log('Ping attempt successful!', 'success');
+            } else {
+                stats.failedPings++;
+                log('All ping attempts failed!', 'error');
+                elements.pingStatus.textContent = 'Ping: Failed';
+            }
+            
+            updateStats();
+            return success;
+        }
+        
+        // Start the countdown timer
+        function startCountdown() {
+            secondsRemaining = config.pingInterval;
+            elements.countdown.textContent = secondsRemaining;
+            
+            clearInterval(pingTimer);
+            pingTimer = setInterval(() => {
+                secondsRemaining--;
+                elements.countdown.textContent = secondsRemaining;
+                
+                if (secondsRemaining <= 0) {
+                    if (config.autoPing) {
+                        pingEndpoints();
+                    }
+                    startCountdown();
+                }
+            }, 1000);
+        }
+        
+        // Toggle auto-ping
+        function toggleAutoPing() {
+            config.autoPing = !config.autoPing;
+            elements.togglePing.textContent = config.autoPing ? 'Pause Auto-Ping' : 'Resume Auto-Ping';
+            
+            if (config.autoPing) {
+                log('Auto-ping resumed', 'info');
+                startCountdown();
+            } else {
+                log('Auto-ping paused', 'info');
+                clearInterval(pingTimer);
+                elements.countdown.textContent = 'Paused';
+            }
+        }
+        
+        // Event listeners
+        elements.pingButton.addEventListener('click', () => {
+            pingEndpoints();
+            startCountdown();
+        });
+        
+        elements.togglePing.addEventListener('click', toggleAutoPing);
+        
+        elements.clearLog.addEventListener('click', () => {
+            elements.logContainer.innerHTML = '';
+            log('Log cleared', 'info');
+        });
+        
+        // Initialize
+        function init() {
+            log('Self-ping page initialized', 'info');
+            log(`Configured to ping ${config.endpoints.length} endpoints every ${config.pingInterval} seconds`, 'info');
+            startCountdown();
+            
+            // Ping immediately on startup
+            setTimeout(() => {
+                pingEndpoints();
+            }, 1000);
+        }
+        
+        // Start the system
+        init();
+    </script>
+</body>
+</html>

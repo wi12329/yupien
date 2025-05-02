@@ -1,0 +1,7 @@
+{
+  "running": true,
+  "telegram_status": "Telegram bot polling for updates",
+  "twitter_status": "Connected (rate limited)",
+  "last_updated": 1746208679.7786503,
+  "last_error": "403 Forbidden\nYour client app is not configured with the appropriate oauth1 app permissions for this endpoint."
+}
